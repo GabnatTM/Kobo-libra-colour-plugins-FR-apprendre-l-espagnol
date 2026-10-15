@@ -1,0 +1,34 @@
+MI ESPAÑOL — plugin KOReader
+============================
+
+Apprendre l'espagnol sur ta liseuse, sans connexion :
+5 100 mots, 10 niveaux (A1 à C2), 170 thèmes de 30 mots,
+quiz, phrases à reconstruire, cartes, et Kobi le petit robot liseuse.
+
+INSTALLATION
+1. Branche la Kobo à l'ordinateur avec le câble USB et touche « Connecter ».
+2. Ouvre la liseuse (KOBOeReader) dans l'explorateur de fichiers.
+   Le dossier .adds est caché : sur Mac, appuie sur Cmd + Maj + point ;
+   sur Windows, Affichage > Afficher > Éléments masqués.
+3. Copie le dossier « espanol.koplugin » dans :  .adds/koreader/plugins/
+   (au même endroit que le dossier de ton app Chess).
+4. Éjecte la liseuse, puis ouvre KOReader (ou redémarre-le s'il était ouvert).
+5. Dans KOReader : touche le haut de l'écran > icône Outils (la clé) >
+   « Mi Español », tout en bas de la première page du menu.
+
+COMMENT ÇA MARCHE
+Chaque thème se joue en 3 étapes, dans l'ordre :
+  1. Quiz : réussir chacun des 30 mots une fois.
+  2. Phrases : réussir 8 phrases en touchant les mots dans le bon ordre.
+  3. Cartes : valider les 30 cartes du thème.
+Quand les trois sont finies, le thème suivant (30 nouveaux mots) se débloque.
+Le dernier thème d'un niveau fait passer au niveau suivant.
+5 phrases réussies d'affilée = phrases plus longues (5 crans).
+Les mots ratés vont dans la pile « À revoir » de l'onglet Cartes.
+
+SAUVEGARDE
+La progression est enregistrée sur la liseuse, dans
+.adds/koreader/settings/espanol.lua
+Pour la garder en lieu sûr, copie ce fichier sur ton ordinateur de temps en temps.
+Pour mettre à jour le plugin, remplace le dossier espanol.koplugin :
+la progression n'est pas effacée.
